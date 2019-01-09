@@ -1,8 +1,8 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import Index from './index';
+import React from "react";
+import ReactDOM from "react-dom";
+import Index from "./index";
 
-ReactDOM.render( < Index / > , document.querySelector('#app'));
+ReactDOM.render(<Index />, document.querySelector("#app"));
 if (module.hot) {
-    module.hot.accept()
+  module.hot.accept();
 }
